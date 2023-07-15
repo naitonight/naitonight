@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f3e9;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .guitar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .guitar {
+    width: 60%;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  .guitar img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .guitar h2 {
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .guitar p {
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+
+  .guitar-details {
+    margin-top: 20px;
+  }
+
+  .guitar-details h3 {
+    font-size: 18px;
+  }
+
+  .guitar-details ul {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+
+  .guitar-details li {
+    list-style-type: disc;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+  }
+
+  header ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  header li {
+    margin: 0 10px;
+  }
+
+  header a {
+    color: #ccc;
+    text-decoration: none;
+  }
+
+  header a:hover {
+    color: #ffcc00;
+  }
+
+  main {
+    margin-top: 50px;
+  }
